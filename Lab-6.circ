@@ -1050,340 +1050,509 @@
     <wire from="(1710,2640)" to="(1740,2640)"/>
     <wire from="(1930,2350)" to="(2090,2350)"/>
     <wire from="(180,1010)" to="(180,1070)"/>
-    <comp lib="0" loc="(1450,1800)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="6" loc="(741,1545)" name="Text">
+      <a name="text" val="EXERCISE 1d SIMP"/>
     </comp>
-    <comp lib="1" loc="(1930,1900)" name="NAND Gate">
+    <comp lib="6" loc="(1777,36)" name="Text">
+      <a name="text" val="EXERCISE 2MIN SIM"/>
+    </comp>
+    <comp lib="1" loc="(1930,2080)" name="NAND Gate">
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="6" loc="(100,1527)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="1" loc="(1460,380)" name="OR Gate">
-      <a name="inputs" val="11"/>
-    </comp>
-    <comp lib="6" loc="(1116,1156)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="6" loc="(581,414)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="0" loc="(140,40)" name="Pin">
+    <comp lib="0" loc="(1040,1390)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1260,1290)" name="AND Gate">
-      <a name="inputs" val="3"/>
-      <a name="negate0" val="true"/>
-      <a name="negate1" val="true"/>
-      <a name="negate2" val="true"/>
-    </comp>
-    <comp lib="0" loc="(140,1550)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1656,16)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(290,1030)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(1930,2830)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(660,440)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1380,1450)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(140,15)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(1780,90)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1578,17)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="0" loc="(100,1550)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(1040,1180)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(290,1090)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="6" loc="(1237,1176)" name="Text">
-      <a name="text" val="EXERCISE 3 "/>
-    </comp>
-    <comp lib="1" loc="(1470,920)" name="AND Gate"/>
-    <comp lib="1" loc="(1250,200)" name="AND Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate0" val="true"/>
-    </comp>
-    <comp lib="1" loc="(290,1650)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(1230,36)" name="Text">
-      <a name="text" val="EXERCISE 2MIN"/>
     </comp>
     <comp lib="1" loc="(440,1180)" name="AND Gate">
       <a name="inputs" val="10"/>
     </comp>
-    <comp lib="1" loc="(2200,2150)" name="NAND Gate">
-      <a name="inputs" val="12"/>
-    </comp>
-    <comp lib="0" loc="(1040,40)" name="Pin">
+    <comp lib="0" loc="(1120,1180)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(270,230)" name="AND Gate"/>
-    <comp lib="1" loc="(1290,1420)" name="NAND Gate">
+    <comp lib="1" loc="(1820,1530)" name="NAND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(1116,16)" name="Text">
-      <a name="text" val="C"/>
+    <comp lib="1" loc="(230,1260)" name="NOT Gate"/>
+    <comp lib="1" loc="(230,1160)" name="NOT Gate"/>
+    <comp lib="6" loc="(60,1527)" name="Text">
+      <a name="text" val="A"/>
     </comp>
-    <comp lib="6" loc="(621,414)" name="Text">
+    <comp lib="0" loc="(500,630)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(101,15)" name="Text">
       <a name="text" val="B"/>
     </comp>
-    <comp lib="1" loc="(300,690)" name="AND Gate"/>
-    <comp lib="0" loc="(700,440)" name="Pin">
+    <comp lib="1" loc="(230,1570)" name="NOT Gate"/>
+    <comp lib="0" loc="(590,870)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(1820,1460)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(420,1680)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(670,870)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1820,2640)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(200,310)" name="NOT Gate"/>
-    <comp lib="1" loc="(790,910)" name="OR Gate">
-      <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="1" loc="(230,1410)" name="NOT Gate"/>
-    <comp lib="0" loc="(1620,40)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(460,1180)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(1038,1157)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="1" loc="(1250,620)" name="AND Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate3" val="true"/>
-    </comp>
-    <comp lib="6" loc="(61,426)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="6" loc="(666,843)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(230,1130)" name="NOT Gate"/>
-    <comp lib="1" loc="(1920,1710)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(1380,1250)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(1250,380)" name="AND Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate1" val="true"/>
-      <a name="negate3" val="true"/>
-    </comp>
-    <comp lib="6" loc="(248,442)" name="Text">
-      <a name="text" val="EXERCISE 1b"/>
-    </comp>
-    <comp lib="1" loc="(290,1210)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(580,440)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1787,766)" name="Text">
-      <a name="text" val="EXERCISE 2MAX SIM"/>
-    </comp>
-    <comp lib="0" loc="(1500,1540)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(230,470)" name="NOT Gate"/>
-    <comp lib="1" loc="(1820,2500)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1078,1707)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="1" loc="(1250,320)" name="AND Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate1" val="true"/>
-      <a name="negate2" val="true"/>
-    </comp>
-    <comp lib="6" loc="(1038,17)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="1" loc="(300,760)" name="AND Gate"/>
-    <comp lib="1" loc="(770,510)" name="AND Gate">
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-    </comp>
-    <comp lib="1" loc="(230,610)" name="NOT Gate"/>
-    <comp lib="1" loc="(300,550)" name="AND Gate"/>
-    <comp lib="6" loc="(59,69)" name="Text"/>
-    <comp lib="1" loc="(790,970)" name="OR Gate">
-      <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="1" loc="(290,970)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(230,1310)" name="NOT Gate"/>
-    <comp lib="1" loc="(230,1080)" name="NOT Gate"/>
-    <comp lib="0" loc="(1160,1180)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(1920,90)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(230,1100)" name="NOT Gate"/>
-    <comp lib="1" loc="(1920,1570)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(1710,1180)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
+    <comp lib="1" loc="(270,90)" name="AND Gate"/>
+    <comp lib="6" loc="(1707,746)" name="Text">
+      <a name="text" val="D"/>
     </comp>
     <comp lib="1" loc="(1260,860)" name="OR Gate">
       <a name="inputs" val="4"/>
       <a name="negate3" val="true"/>
-    </comp>
-    <comp lib="6" loc="(1588,1157)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="0" loc="(1080,760)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(230,1570)" name="NOT Gate"/>
-    <comp lib="1" loc="(200,150)" name="NOT Gate"/>
-    <comp lib="0" loc="(1120,40)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(707,843)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="6" loc="(1787,1176)" name="Text">
-      <a name="text" val="EXERCISE 2NAND"/>
-    </comp>
-    <comp lib="0" loc="(1670,1180)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(270,370)" name="AND Gate"/>
-    <comp lib="1" loc="(230,1630)" name="NOT Gate"/>
-    <comp lib="0" loc="(910,1030)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(230,1470)" name="NOT Gate"/>
-    <comp lib="1" loc="(1260,1840)" name="NOR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(270,300)" name="AND Gate"/>
-    <comp lib="0" loc="(1120,1730)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(290,910)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="6" loc="(1078,1157)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="1" loc="(1820,2740)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(230,1350)" name="NOT Gate"/>
-    <comp lib="0" loc="(1160,1390)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(300,480)" name="AND Gate"/>
-    <comp lib="0" loc="(620,1550)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(1250,80)" name="AND Gate">
       <a name="inputs" val="4"/>
       <a name="negate0" val="true"/>
       <a name="negate1" val="true"/>
     </comp>
+    <comp lib="0" loc="(1120,760)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1116,16)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="0" loc="(670,870)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(100,40)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1500,1540)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(200,150)" name="NOT Gate"/>
+    <comp lib="1" loc="(1920,1300)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(579,1525)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="6" loc="(1628,1157)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="1" loc="(230,1140)" name="NOT Gate"/>
+    <comp lib="1" loc="(230,1730)" name="NOT Gate"/>
+    <comp lib="6" loc="(621,414)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="6" loc="(1157,1156)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="0" loc="(1580,40)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1260,1220)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(230,1610)" name="NOT Gate"/>
+    <comp lib="1" loc="(200,310)" name="NOT Gate"/>
+    <comp lib="0" loc="(100,450)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(230,1190)" name="NOT Gate"/>
+    <comp lib="1" loc="(480,630)" name="AND Gate">
+      <a name="inputs" val="6"/>
+    </comp>
+    <comp lib="1" loc="(1820,1220)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1628,747)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="0" loc="(460,1180)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(1038,1367)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="6" loc="(1078,737)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="1" loc="(1780,870)" name="OR Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="1" loc="(1820,1780)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(140,1550)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(140,40)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1820,2190)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1290,1600)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1900,90)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(1820,2110)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1038,17)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="0" loc="(1500,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(270,230)" name="AND Gate"/>
+    <comp lib="1" loc="(890,1030)" name="AND Gate"/>
+    <comp lib="6" loc="(59,69)" name="Text"/>
+    <comp lib="0" loc="(910,1030)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(230,890)" name="NOT Gate"/>
+    <comp lib="0" loc="(1040,1730)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(290,1710)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(230,960)" name="NOT Gate"/>
+    <comp lib="1" loc="(1820,1870)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(230,1040)" name="NOT Gate"/>
     <comp lib="0" loc="(1710,770)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="6" loc="(1707,1156)" name="Text">
+    <comp lib="1" loc="(1930,2470)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(1078,1157)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="1" loc="(1930,2350)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(247,863)" name="Text">
+      <a name="text" val="EXERCISE 1c"/>
+    </comp>
+    <comp lib="1" loc="(290,1770)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1250,680)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(230,1080)" name="NOT Gate"/>
+    <comp lib="0" loc="(1880,840)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(230,1800)" name="NOT Gate"/>
+    <comp lib="1" loc="(1920,1570)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(1380,1450)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1230,36)" name="Text">
+      <a name="text" val="EXERCISE 2MIN"/>
+    </comp>
+    <comp lib="1" loc="(1820,2390)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1160,1730)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(180,427)" name="Text">
       <a name="text" val="D"/>
     </comp>
-    <comp lib="1" loc="(1250,140)" name="AND Gate">
-      <a name="inputs" val="4"/>
+    <comp lib="6" loc="(1157,16)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="6" loc="(140,15)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="1" loc="(300,760)" name="AND Gate"/>
+    <comp lib="0" loc="(1590,1180)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1430,1800)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(270,160)" name="AND Gate"/>
+    <comp lib="1" loc="(230,560)" name="NOT Gate"/>
+    <comp lib="1" loc="(200,220)" name="NOT Gate"/>
+    <comp lib="1" loc="(1350,1800)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(770,510)" name="AND Gate">
+      <a name="inputs" val="2"/>
       <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="1" loc="(1260,1770)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1820,2740)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1340,1250)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(230,1350)" name="NOT Gate"/>
+    <comp lib="1" loc="(1460,380)" name="OR Gate">
+      <a name="inputs" val="11"/>
+    </comp>
+    <comp lib="1" loc="(1470,920)" name="AND Gate"/>
+    <comp lib="0" loc="(1380,1250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1250,320)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="1" loc="(1250,500)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate2" val="true"/>
       <a name="negate3" val="true"/>
     </comp>
-    <comp lib="0" loc="(1630,770)" name="Pin">
+    <comp lib="0" loc="(1120,1390)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(1040,760)" name="Pin">
+    <comp lib="6" loc="(208,36)" name="Text">
+      <a name="text" val="EXERCISE 1a"/>
+    </comp>
+    <comp lib="0" loc="(2260,2150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1820,2030)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(450,220)" name="OR Gate"/>
+    <comp lib="1" loc="(1860,840)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(776,434)" name="Text">
+      <a name="text" val="EXERCISE 1b SIMP."/>
+    </comp>
+    <comp lib="1" loc="(790,1030)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="6" loc="(1237,1176)" name="Text">
+      <a name="text" val="EXERCISE 3 "/>
+    </comp>
+    <comp lib="1" loc="(1260,980)" name="OR Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(180,870)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="6" loc="(1237,1386)" name="Text">
-      <a name="text" val="EXERCISE 3 NAND "/>
+    <comp lib="1" loc="(230,1410)" name="NOT Gate"/>
+    <comp lib="6" loc="(1237,1726)" name="Text">
+      <a name="text" val="EXERCISE 3 NOR"/>
     </comp>
+    <comp lib="1" loc="(1780,160)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(300,620)" name="AND Gate"/>
+    <comp lib="0" loc="(1040,40)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1160,1180)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(230,1450)" name="NOT Gate"/>
+    <comp lib="6" loc="(793,862)" name="Text">
+      <a name="text" val="EXERCISE 1c SIMP"/>
+    </comp>
+    <comp lib="0" loc="(580,440)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(230,1230)" name="NOT Gate"/>
+    <comp lib="0" loc="(1670,770)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(707,843)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="1" loc="(1930,1900)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(2200,2150)" name="NAND Gate">
+      <a name="inputs" val="12"/>
+    </comp>
+    <comp lib="6" loc="(1618,17)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="1" loc="(1250,620)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate3" val="true"/>
+    </comp>
+    <comp lib="1" loc="(1260,800)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(1116,1366)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="1" loc="(1290,1660)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(290,970)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(180,1550)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(230,950)" name="NOT Gate"/>
     <comp lib="1" loc="(1260,1040)" name="OR Gate">
       <a name="inputs" val="4"/>
       <a name="negate1" val="true"/>
       <a name="negate3" val="true"/>
     </comp>
-    <comp lib="0" loc="(1590,1180)" name="Pin">
+    <comp lib="6" loc="(141,426)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="6" loc="(1707,1156)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="1" loc="(290,1650)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(1157,736)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="1" loc="(290,910)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(140,450)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(230,1650)" name="NOT Gate"/>
-    <comp lib="0" loc="(660,1550)" name="Pin">
+    <comp lib="0" loc="(770,1600)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1080,1390)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(230,1480)" name="NOT Gate"/>
+    <comp lib="1" loc="(230,1100)" name="NOT Gate"/>
+    <comp lib="1" loc="(1290,1480)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1590,770)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1116,736)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="6" loc="(1157,1366)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="1" loc="(1820,1280)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(790,1090)" name="OR Gate">
+      <a name="inputs" val="3"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="1" loc="(290,1030)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(60,870)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(248,442)" name="Text">
+      <a name="text" val="EXERCISE 1b"/>
+    </comp>
+    <comp lib="1" loc="(1820,1360)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1920,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(138,846)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="0" loc="(1080,1730)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1660,40)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(620,1550)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1588,1157)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="6" loc="(100,846)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="1" loc="(230,760)" name="Buffer"/>
+    <comp lib="0" loc="(1710,1180)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1820,2330)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1078,17)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="6" loc="(588,844)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="0" loc="(180,450)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1700,40)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1160,1390)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
@@ -1393,166 +1562,19 @@
       <a name="negate2" val="true"/>
       <a name="negate3" val="true"/>
     </comp>
-    <comp lib="1" loc="(230,1610)" name="NOT Gate"/>
-    <comp lib="1" loc="(1930,2730)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="6" loc="(776,434)" name="Text">
-      <a name="text" val="EXERCISE 1b SIMP."/>
-    </comp>
-    <comp lib="6" loc="(659,413)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(1820,2190)" name="NAND Gate">
+    <comp lib="1" loc="(1780,810)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(1820,1930)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1038,737)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="1" loc="(230,1290)" name="NOT Gate"/>
-    <comp lib="0" loc="(1080,1180)" name="Pin">
+    <comp lib="0" loc="(1120,1730)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(230,1440)" name="NOT Gate"/>
-    <comp lib="1" loc="(1260,800)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="6" loc="(741,1545)" name="Text">
-      <a name="text" val="EXERCISE 1d SIMP"/>
-    </comp>
-    <comp lib="6" loc="(1628,1157)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="1" loc="(1480,1540)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(178,847)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="1" loc="(290,1390)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(230,1230)" name="NOT Gate"/>
-    <comp lib="6" loc="(1157,736)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="1" loc="(1290,1540)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(480,630)" name="AND Gate">
-      <a name="inputs" val="6"/>
-    </comp>
-    <comp lib="1" loc="(290,1150)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(230,1730)" name="NOT Gate"/>
-    <comp lib="0" loc="(1160,1730)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1820,2030)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1078,737)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="1" loc="(230,950)" name="NOT Gate"/>
-    <comp lib="6" loc="(138,1526)" name="Text">
+    <comp lib="1" loc="(230,1380)" name="NOT Gate"/>
+    <comp lib="6" loc="(1656,16)" name="Text">
       <a name="text" val="C"/>
     </comp>
-    <comp lib="1" loc="(1930,2230)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(200,220)" name="NOT Gate"/>
-    <comp lib="1" loc="(1930,2350)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="6" loc="(1116,1366)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="0" loc="(1500,380)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1120,1390)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(230,890)" name="NOT Gate"/>
-    <comp lib="1" loc="(200,290)" name="NOT Gate"/>
-    <comp lib="0" loc="(880,510)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(1237,1726)" name="Text">
-      <a name="text" val="EXERCISE 3 XOR"/>
-    </comp>
-    <comp lib="6" loc="(1157,1156)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="1" loc="(1820,1530)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(790,1090)" name="OR Gate">
-      <a name="inputs" val="3"/>
-      <a name="negate1" val="true"/>
-      <a name="negate2" val="true"/>
-    </comp>
-    <comp lib="1" loc="(1260,920)" name="OR Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate2" val="true"/>
-    </comp>
-    <comp lib="6" loc="(628,844)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="6" loc="(1628,747)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="1" loc="(1780,870)" name="OR Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate2" val="true"/>
-    </comp>
-    <comp lib="6" loc="(247,863)" name="Text">
-      <a name="text" val="EXERCISE 1c"/>
-    </comp>
-    <comp lib="6" loc="(180,427)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="1" loc="(230,1450)" name="NOT Gate"/>
-    <comp lib="1" loc="(890,1030)" name="AND Gate"/>
-    <comp lib="6" loc="(248,1546)" name="Text">
-      <a name="text" val="EXERCISE 1d"/>
-    </comp>
-    <comp lib="6" loc="(793,862)" name="Text">
-      <a name="text" val="EXERCISE 1c SIMP"/>
-    </comp>
-    <comp lib="1" loc="(290,1770)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(230,1160)" name="NOT Gate"/>
-    <comp lib="0" loc="(100,870)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(270,160)" name="AND Gate"/>
-    <comp lib="0" loc="(100,40)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1260,980)" name="OR Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="1" loc="(1920,1300)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(1590,770)" name="Pin">
+    <comp lib="0" loc="(580,1550)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
@@ -1561,385 +1583,166 @@
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(180,1550)" name="Pin">
+    <comp lib="6" loc="(68,69)" name="Text"/>
+    <comp lib="6" loc="(666,843)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="6" loc="(61,15)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="0" loc="(620,440)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(100,450)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
+    <comp lib="1" loc="(230,1340)" name="NOT Gate"/>
+    <comp lib="1" loc="(290,1590)" name="OR Gate">
+      <a name="inputs" val="3"/>
     </comp>
-    <comp lib="0" loc="(2260,2150)" name="Pin">
+    <comp lib="1" loc="(230,470)" name="NOT Gate"/>
+    <comp lib="0" loc="(1450,1800)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(1340,1250)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(290,1460)" name="OR Gate">
+    <comp lib="1" loc="(1260,920)" name="OR Gate">
       <a name="inputs" val="4"/>
+      <a name="negate2" val="true"/>
     </comp>
-    <comp lib="6" loc="(1116,736)" name="Text">
+    <comp lib="6" loc="(138,1526)" name="Text">
       <a name="text" val="C"/>
     </comp>
-    <comp lib="6" loc="(700,413)" name="Text">
+    <comp lib="6" loc="(1237,1386)" name="Text">
+      <a name="text" val="EXERCISE 3 NAND "/>
+    </comp>
+    <comp lib="1" loc="(230,610)" name="NOT Gate"/>
+    <comp lib="6" loc="(179,1526)" name="Text">
       <a name="text" val="D"/>
     </comp>
-    <comp lib="0" loc="(180,870)" name="Pin">
+    <comp lib="0" loc="(1160,40)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(1820,1220)" name="NAND Gate">
+    <comp lib="6" loc="(1038,737)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="0" loc="(1040,1180)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1820,1720)" name="NAND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(180,450)" name="Pin">
+    <comp lib="6" loc="(1116,1156)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="1" loc="(290,1210)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(790,970)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(700,440)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(230,1750)" name="NOT Gate"/>
-    <comp lib="0" loc="(1040,1390)" name="Pin">
+    <comp lib="6" loc="(1787,1176)" name="Text">
+      <a name="text" val="EXERCISE 2NAND"/>
+    </comp>
+    <comp lib="1" loc="(230,1470)" name="NOT Gate"/>
+    <comp lib="1" loc="(1930,2730)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(660,440)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(178,847)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="6" loc="(100,426)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="1" loc="(270,370)" name="AND Gate"/>
+    <comp lib="1" loc="(230,1650)" name="NOT Gate"/>
+    <comp lib="1" loc="(1920,1710)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1080,760)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(1930,2620)" name="NAND Gate">
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="6" loc="(1157,1366)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="1" loc="(1390,1600)" name="NAND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(710,870)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1250,680)" name="AND Gate">
+    <comp lib="1" loc="(290,1390)" name="OR Gate">
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="1" loc="(1260,1220)" name="AND Gate">
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="1" loc="(1780,160)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(230,1010)" name="NOT Gate"/>
-    <comp lib="6" loc="(1697,16)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="0" loc="(1630,1180)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(580,1550)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1250,500)" name="AND Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate2" val="true"/>
-      <a name="negate3" val="true"/>
-    </comp>
-    <comp lib="6" loc="(1038,1367)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="0" loc="(140,450)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(1120,1180)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(140,870)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(300,620)" name="AND Gate"/>
-    <comp lib="0" loc="(1120,760)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1078,17)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="0" loc="(1660,40)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(60,1527)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="1" loc="(1930,2470)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(230,1380)" name="NOT Gate"/>
-    <comp lib="0" loc="(770,1600)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(100,846)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="6" loc="(59,846)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="1" loc="(230,680)" name="NOT Gate"/>
-    <comp lib="1" loc="(230,1140)" name="NOT Gate"/>
-    <comp lib="0" loc="(60,870)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(200,170)" name="NOT Gate"/>
-    <comp lib="1" loc="(230,1340)" name="NOT Gate"/>
-    <comp lib="6" loc="(1078,1367)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="1" loc="(290,1710)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1160,40)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(230,540)" name="NOT Gate"/>
     <comp lib="1" loc="(740,1600)" name="AND Gate">
       <a name="inputs" val="3"/>
       <a name="negate0" val="true"/>
       <a name="negate1" val="true"/>
       <a name="negate2" val="true"/>
     </comp>
-    <comp lib="6" loc="(101,15)" name="Text">
-      <a name="text" val="B"/>
+    <comp lib="1" loc="(300,690)" name="AND Gate"/>
+    <comp lib="1" loc="(1820,1460)" name="NAND Gate">
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(590,870)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1588,747)" name="Text">
+    <comp lib="6" loc="(61,426)" name="Text">
       <a name="text" val="A"/>
     </comp>
-    <comp lib="1" loc="(1820,1720)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1618,17)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="1" loc="(1860,840)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(230,1800)" name="NOT Gate"/>
     <comp lib="1" loc="(400,1680)" name="AND Gate"/>
-    <comp lib="0" loc="(1880,840)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(60,1550)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1290,1600)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(290,1590)" name="OR Gate">
+    <comp lib="1" loc="(1390,1600)" name="NAND Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(1820,1280)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(68,69)" name="Text"/>
-    <comp lib="6" loc="(579,1525)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="6" loc="(1038,1707)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="6" loc="(179,1526)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="1" loc="(230,1260)" name="NOT Gate"/>
-    <comp lib="0" loc="(500,630)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(619,1525)" name="Text">
+    <comp lib="1" loc="(300,480)" name="AND Gate"/>
+    <comp lib="6" loc="(1078,1367)" name="Text">
       <a name="text" val="B"/>
     </comp>
-    <comp lib="6" loc="(1157,1706)" name="Text">
-      <a name="text" val="D"/>
+    <comp lib="6" loc="(100,1527)" name="Text">
+      <a name="text" val="B"/>
     </comp>
-    <comp lib="1" loc="(230,560)" name="NOT Gate"/>
-    <comp lib="6" loc="(141,426)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(1250,560)" name="AND Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate2" val="true"/>
-    </comp>
-    <comp lib="6" loc="(1777,36)" name="Text">
-      <a name="text" val="EXERCISE 2MIN SIM"/>
-    </comp>
-    <comp lib="1" loc="(1820,1780)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1920,1410)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(290,1330)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(230,1400)" name="NOT Gate"/>
-    <comp lib="1" loc="(790,1030)" name="OR Gate">
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="6" loc="(1707,746)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="6" loc="(1231,755)" name="Text">
-      <a name="text" val="EXERCISE 2MAX"/>
-    </comp>
-    <comp lib="1" loc="(290,1270)" name="OR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(1250,440)" name="AND Gate">
-      <a name="inputs" val="4"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="1" loc="(230,760)" name="Buffer"/>
-    <comp lib="0" loc="(480,220)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(1930,2080)" name="NAND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(1350,1800)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1820,1360)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1820,2110)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1290,1660)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1080,1730)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(620,440)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(60,40)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(850,510)" name="OR Gate">
-      <a name="inputs" val="3"/>
-      <a name="negate0" val="true"/>
-      <a name="negate2" val="true"/>
-    </comp>
-    <comp lib="6" loc="(588,844)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="1" loc="(1900,90)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(1780,810)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1666,1156)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(1820,2330)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(658,1525)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(1820,2390)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1260,1770)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1670,770)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(450,220)" name="OR Gate"/>
-    <comp lib="0" loc="(1080,1390)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(138,846)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(1290,1480)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(230,1190)" name="NOT Gate"/>
-    <comp lib="1" loc="(1820,1870)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(230,1480)" name="NOT Gate"/>
-    <comp lib="0" loc="(1700,40)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1157,16)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="1" loc="(230,1040)" name="NOT Gate"/>
-    <comp lib="1" loc="(270,90)" name="AND Gate"/>
-    <comp lib="6" loc="(208,36)" name="Text">
-      <a name="text" val="EXERCISE 1a"/>
-    </comp>
-    <comp lib="1" loc="(1430,1800)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1040,1730)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(61,15)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="1" loc="(200,90)" name="NOT Gate"/>
     <comp lib="6" loc="(1116,1706)" name="Text">
       <a name="text" val="C"/>
     </comp>
-    <comp lib="0" loc="(1160,760)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1820,1660)" name="NAND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(100,426)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="1" loc="(230,960)" name="NOT Gate"/>
-    <comp lib="0" loc="(60,450)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
+    <comp lib="6" loc="(1578,17)" name="Text">
+      <a name="text" val="A"/>
     </comp>
     <comp lib="6" loc="(1666,746)" name="Text">
       <a name="text" val="C"/>
     </comp>
-    <comp lib="0" loc="(1080,40)" name="Pin">
+    <comp lib="0" loc="(660,1550)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(710,870)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1780,90)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1260,1290)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="1" loc="(230,1310)" name="NOT Gate"/>
+    <comp lib="1" loc="(300,550)" name="AND Gate"/>
+    <comp lib="6" loc="(700,413)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="1" loc="(1250,200)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="1" loc="(230,540)" name="NOT Gate"/>
+    <comp lib="1" loc="(1250,560)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1670,1180)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
@@ -1947,7 +1750,204 @@
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(1580,40)" name="Pin">
+    <comp lib="6" loc="(1078,1707)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="0" loc="(1620,40)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1920,1410)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(1930,2230)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(1231,755)" name="Text">
+      <a name="text" val="EXERCISE 2MAX"/>
+    </comp>
+    <comp lib="0" loc="(140,870)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,300)" name="AND Gate"/>
+    <comp lib="1" loc="(1820,2640)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1080,1180)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(230,1400)" name="NOT Gate"/>
+    <comp lib="6" loc="(59,846)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="0" loc="(880,510)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(1038,1707)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="1" loc="(850,510)" name="OR Gate">
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="0" loc="(420,1680)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(100,1550)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(230,1010)" name="NOT Gate"/>
+    <comp lib="1" loc="(1820,2500)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1588,747)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="1" loc="(230,680)" name="NOT Gate"/>
+    <comp lib="1" loc="(1250,380)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate1" val="true"/>
+      <a name="negate3" val="true"/>
+    </comp>
+    <comp lib="1" loc="(230,1290)" name="NOT Gate"/>
+    <comp lib="1" loc="(290,1330)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(581,414)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="0" loc="(1120,40)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(230,1630)" name="NOT Gate"/>
+    <comp lib="6" loc="(1038,1157)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="1" loc="(230,1130)" name="NOT Gate"/>
+    <comp lib="1" loc="(1290,1540)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(60,40)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(60,1550)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1930,2830)" name="NAND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(1787,766)" name="Text">
+      <a name="text" val="EXERCISE 2MAX SIM"/>
+    </comp>
+    <comp lib="6" loc="(659,413)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="0" loc="(60,450)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1820,1930)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(290,1460)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(1820,1660)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1157,1706)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="1" loc="(1250,440)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1630,770)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(619,1525)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="1" loc="(1290,1420)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1666,1156)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="1" loc="(200,90)" name="NOT Gate"/>
+    <comp lib="0" loc="(1630,1180)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(658,1525)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="1" loc="(1480,1540)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1697,16)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="1" loc="(790,910)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1160,760)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(100,870)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1250,140)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="negate0" val="true"/>
+      <a name="negate3" val="true"/>
+    </comp>
+    <comp lib="0" loc="(480,220)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(200,170)" name="NOT Gate"/>
+    <comp lib="6" loc="(248,1546)" name="Text">
+      <a name="text" val="EXERCISE 1d"/>
+    </comp>
+    <comp lib="0" loc="(1040,760)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(290,1150)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(290,1270)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(290,1090)" name="OR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="6" loc="(628,844)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="1" loc="(1260,1840)" name="NOR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(200,290)" name="NOT Gate"/>
+    <comp lib="1" loc="(230,1750)" name="NOT Gate"/>
+    <comp lib="0" loc="(1080,40)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
